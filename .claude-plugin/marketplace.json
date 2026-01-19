@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "1-Martian-Way-claude-plugins",
+  "description": "Personal Claude Code plugins by 1-Martian-Way",
+  "owner": {
+    "name": "karan",
+    "email": "karan@onemartianway.com"
+  },
+  "plugins": [
+    {
+      "name": "shipit",
+      "description": "Quick commit and push - analyze changes, generate commit message, commit, and push in one command",
+      "author": {
+        "name": "karan",
+        "email": "karan@onemartianway.com"
+      },
+      "source": "./plugins/shipit",
+      "category": "productivity"
+    }
+  ]
+}
